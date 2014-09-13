@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="BounceView" format="reference" />
+     <declare-styleable name="BounceView">
+         <attr name="topViewId" format="reference" />
+         <attr name="bottomViewId" format="reference" />
+         <attr name="stableViewId" format="reference" />
+         <attr name="topScrollDistance" format="reference|dimension" />
+         <attr name="minTopHeight" format="reference|dimension" />
+         <attr name="maxTopHeight" format="reference|dimension" />
+    </declare-styleable>
+</resources>
